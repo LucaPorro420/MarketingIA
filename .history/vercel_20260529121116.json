@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/fcc-progress.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/webhook/fcc-progress",
+      "dest": "api/fcc-progress.js"
+    }
+  ]
+}
