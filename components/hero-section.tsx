@@ -14,7 +14,7 @@ export function HeroSection() {
     >
       {/* Subtle grid background */}
       <div
-        className="pointer-events-none absolute inset-0 opacity-[0.03]"
+        className="pointer-events-none absolute inset-0 opacity-[0.06]"
         style={{
           backgroundImage:
             "linear-gradient(hsl(var(--fcc-green)) 1px, transparent 1px), linear-gradient(to right, hsl(var(--fcc-green)) 1px, transparent 1px)",

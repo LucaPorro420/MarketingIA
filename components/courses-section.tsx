@@ -64,9 +64,9 @@ const courses = [
 ];
 
 const levelColor: Record<string, string> = {
-  Principiante: "text-primary bg-primary/10",
-  Intermedio: "text-orange-400 bg-orange-400/10",
-  Avanzado: "text-red-400 bg-red-400/10",
+  Principiante: "text-emerald-600 bg-emerald-600/10",
+  Intermedio: "text-amber-600 bg-amber-600/10",
+  Avanzado: "text-red-500 bg-red-500/10",
 };
 
 export function CoursesSection() {
